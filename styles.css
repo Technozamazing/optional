@@ -1,0 +1,57 @@
+/* Set the gradient background for the entire page */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    display: flex;
+    flex-direction: column; /* To allow space for footer */
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif; /* Updated font to Poppins */
+    color: white;
+    text-align: center;
+  }
+  
+  /* Style for the congratulation message container */
+  .congratulation-message {
+    padding: 50px 70px;
+    background-color: rgba(255, 255, 255, 0.1); /* Slight white background for contrast */
+    backdrop-filter: blur(10px); /* Blur effect */
+    border-radius: 20px; /* Rounded corners */
+    border: 2px solid rgba(255, 255, 255, 0.2); /* Optional subtle border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+    font-size: 2rem;
+    max-width: 80%;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Shadow for better text visibility */
+  }
+  
+  /* Additional styling for the congratulatory text */
+  h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 600; /* Increased weight for header */
+  }
+  
+  /* Footer message styling */
+  .footer {
+    position: absolute;
+    bottom: 20px;
+    font-size: 1rem;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Text shadow for visibility */
+  }
+  
+  /* Style for the link inside the footer */
+  .footer a {
+    color: #FFCC70;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    color: #C850C0; /* Hover effect for the link */
+  }
+  
