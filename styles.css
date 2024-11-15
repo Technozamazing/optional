@@ -54,4 +54,8 @@ body {
   .footer a:hover {
     color: #C850C0; /* Hover effect for the link */
   }
-  
+
+ .right
+  {
+    font-size: 1.2rem;
+  }
