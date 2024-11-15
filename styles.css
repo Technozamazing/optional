@@ -19,7 +19,7 @@ body {
     padding: 50px 70px;
     background-color: rgba(255, 255, 255, 0.1); /* Slight white background for contrast */
     backdrop-filter: blur(10px); /* Blur effect */
-    border-radius: 20px; /* Rounded corners */
+    border-radius: 15px; /* Rounded corners */
     border: 2px solid rgba(255, 255, 255, 0.2); /* Optional subtle border */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
     font-size: 2rem;
@@ -45,17 +45,30 @@ body {
   
   /* Style for the link inside the footer */
   .footer a {
-    color: #FFCC70;
+    color: #fdb631;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
   }
   
   .footer a:hover {
-    color: #C850C0; /* Hover effect for the link */
+    color: #30f5db; /* Hover effect for the link */
+  }
+  
+  .right a
+  {
+    position: center;
+    bottom: 20px;
+    font-size: 1rem;
+    color: #fdb631;
+    font-size: 1rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
   }
 
- .right
+  .right a:hover
   {
-    font-size: 1.1rem;
+    color: #30f5db;
   }
